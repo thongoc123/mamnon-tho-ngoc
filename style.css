@@ -1,0 +1,8 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #ffddcc; padding: 20px; text-align: center; }
+nav { background: #ffbb99; padding: 10px; text-align: center; }
+nav a { margin: 0 10px; color: #333; text-decoration: none; font-weight: bold; }
+section { padding: 20px; }
+footer { background: #ffbb99; padding: 10px; text-align: center; }
+img { max-width: 100%; height: auto; }
