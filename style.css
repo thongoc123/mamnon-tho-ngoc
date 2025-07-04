@@ -1,8 +1,98 @@
 
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-header { background: #ffddcc; padding: 20px; text-align: center; }
-nav { background: #ffbb99; padding: 10px; text-align: center; }
-nav a { margin: 0 10px; color: #333; text-decoration: none; font-weight: bold; }
-section { padding: 20px; }
-footer { background: #ffbb99; padding: 10px; text-align: center; }
-img { max-width: 100%; height: auto; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4db8ff;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header img {
+  max-height: 80px;
+  vertical-align: middle;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+nav {
+  background: #007acc;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  background: #e6f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+footer {
+  background: #007acc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+button.call-button,
+button.zalo-button {
+  background: #00cc66;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.call-button:hover,
+button.zalo-button:hover {
+  background: #00994d;
+}
