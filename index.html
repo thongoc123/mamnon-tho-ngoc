@@ -1,38 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mầm Non Thỏ Ngọc</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mầm non Thỏ Ngọc</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <img src="logo.png" alt="Logo" class="logo" />
-    <nav class="nav">
-      <a href="index.html">Trang chủ</a>
-      <a href="about.html">Giới thiệu</a>
-      <a href="program.html">Chương trình học</a>
-      <a href="gallery.html">Thư viện ảnh</a>
-      <a href="contact.html">Liên hệ</a>
-    </nav>
+  <header>
+    <h1>Mầm non Thỏ Ngọc</h1>
+    <p><em>“Con của bạn cũng như con của tôi”</em></p>
   </header>
-  <section class="hero">
-    <h1>Chào mừng đến với Mầm Non Thỏ Ngọc</h1>
-    <p>Con của bạn cũng như con của tôi</p>
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#about">Tuyển sinh</a>
+    <a href="#program">Chương trình</a>
+    <a href="#gallery">Hình ảnh</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+  <section id="home">
+    <h2>Chào mừng</h2>
+    <p>Trường mầm non tư thục uy tín tại Ninh Phước – Ninh Thuận. Nhận trẻ từ 15 tháng – 5 tuổi, hoạt động từ 6h30 đến 17h30.</p>
   </section>
-  <section class="section photos">
+  <section id="about">
+    <h2>Thông tin tuyển sinh</h2>
+    <ul>
+      <li>Đối tượng: Trẻ từ 15 tháng – 5 tuổi</li>
+      <li>Thời gian: 6h30 – 17h30</li>
+      <li>Địa chỉ: Chất Thường – Phước Hậu – Ninh Phước – Ninh Thuận</li>
+      <li>Hotline/Zalo: 0362 685 563 – 0378 133 241</li>
+    </ul>
+  </section>
+  <section id="program">
+    <h2>Chương trình học STEAM</h2>
+    <p>Giáo dục toàn diện với phương pháp STEAM, kết hợp hoạt động trải nghiệm và phát triển kỹ năng sống.</p>
+  </section>
+  <section id="gallery">
     <h2>Hình ảnh lớp học</h2>
-    <div class="photo-grid">
-      <img src="photo1.jpg" alt="Lớp học 1" />
-      <img src="photo2.jpg" alt="Lớp học 2" />
-      <img src="photo3.jpg" alt="Lớp học 3" />
-    </div>
+    <img src="https://via.placeholder.com/200" alt="Ảnh minh họa">
   </section>
-  <footer class="footer">
-    <p>&copy; 2025 Mầm Non Thỏ Ngọc</p>
-    <a href="tel:0362685563">📞 Gọi: 0362 685 563</a> |
-    <a href="https://zalo.me/0378613321" target="_blank">💬 Nhắn Zalo</a>
+  <section id="contact">
+    <h2>Liên hệ & Đăng ký</h2>
+    <form>
+      <label>Phụ huynh:<br><input type="text" name="name"></label><br><br>
+      <label>SĐT/Zalo:<br><input type="text" name="phone"></label><br><br>
+      <label>Tuổi bé:<br><input type="text" name="age"></label><br><br>
+      <button type="submit">Gửi đăng ký</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Trường Mầm non Thỏ Ngọc</p>
   </footer>
 </body>
 </html>
